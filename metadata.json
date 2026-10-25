@@ -1,0 +1,6 @@
+{
+  "name": "RIVALS: 3D Arena Duel Shooter",
+  "description": "로블록스 라이벌(RIVALS)을 정교하게 재현한 1인칭 3D 하이퍼 아레나 듀얼 FPS 게임. 4슬롯 로드아웃(돌격소총, 저격소총, 산탄총, 리볼버, 카타나 탄환 반사, 사신 낫 대시, 수류탄, 서브스페이스 지뢰), 슬라이드 점프 기동, 라운드제 5선승 매치를 지원합니다.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

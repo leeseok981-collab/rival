@@ -1,0 +1,35 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-display: 'Chakra Petch', 'Plus Jakarta Sans', 'Noto Sans KR', sans-serif;
+    --font-sans: 'Plus Jakarta Sans', 'Noto Sans KR', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-mono: 'JetBrains Mono', 'Noto Sans KR', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    user-select: none;
+    -webkit-user-select: none;
+    overflow: hidden;
+  }
+}
+
+.font-display {
+  font-family: var(--font-display);
+}
+
+.font-mono-tabular {
+  font-family: var(--font-mono);
+  font-variant-numeric: tabular-nums;
+}
+
+.stroke-text {
+  paint-order: stroke fill;
+  -webkit-text-stroke: 3px rgba(9, 13, 22, 0.92);
+}
+
+.stroke-text-sm {
+  paint-order: stroke fill;
+  -webkit-text-stroke: 2px rgba(9, 13, 22, 0.9);
+}
